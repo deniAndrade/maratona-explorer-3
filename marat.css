@@ -1,0 +1,91 @@
+/* GLOBAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background: #ffedd5;
+  font-family: "roboto", sans-serif;
+
+}
+/* FONTES  E COR */
+h1, h2 , h3 ,.price{
+  font-family: 'Roboto Serif', serif;
+text-transform: uppercase; /* TRANSFORMA EM 
+MAIUSCULA */
+color-scheme: #2D2C2A;
+
+ }
+
+ul {
+  list-style: none;
+
+}
+/* HEADER */
+header {
+  padding: 32px 0;
+  text-align: center;
+  margin-bottom: 4px;
+}
+header > p{
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.9);
+}
+header > h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+}
+ header > h1 > span{
+  color: #995000;
+}
+
+section,
+header {
+  max-width: 300px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+/* SECTION */
+section{
+  margin-bottom:24px ;
+}
+
+section > h2 {
+  background-color: #fed7aa;
+  text-align: center;/* alinhamento do texto */
+  padding: 8px 16px;
+  font-size: 18px; 
+  margin-bottom: 24px;
+}
+
+ ul > li  { 
+  line-height: 33px;
+  display: flex;
+  margin-bottom: 16px;
+  /* display flex coloca uma caixa ao lado da outra */
+
+}
+ li .detales{
+  max-width: 240px;
+
+ }
+ .detales > h3 {
+font-size: 16px;
+  margin-bottom: 8px;
+  line-height: 19px;
+ 
+ }
+ .detales > p{
+  color: rgba(0, 0, 0, 0.7);/*no caso de cores com porcetagem posso usar o inspecte do figma e pegar a cor la  
+  RGBA  ( RED , GREEN ,BLUE , ALFA )
+  */
+  font-size: 14px;
+  line-height: 21px; /* altura da linha  é a separaçaõa entre as linhas*/
+ }
+
+ 
